@@ -1,0 +1,37 @@
+.characterList {
+	list-style-type: none;
+	display: flex;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+.characterList a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	align-self: center;
+	background: grey;
+	margin: .5em;
+	padding: .5em;
+	width: 9em;
+	height: 6em;
+	display: flex;
+	border-radius: .5em;
+}
+
+.characterList span {
+	align-self: center;
+	text-align: center;
+	width: 100%;
+}
+
+::-webkit-scrollbar {
+	width: 0;
+	height: .4em;
+/* 	background: transparent; */
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgb(129, 128, 128);
+	border-radius: .5em;
+}

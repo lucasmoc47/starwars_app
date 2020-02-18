@@ -2,11 +2,12 @@ import React from 'react';
 
 import { useParams } from 'react-router-dom'
 
-export default function Character(props) {
+import './styles.css'
 
+export default function Character(props) {
 	const { characterName } = useParams()
 
-	const character = props.characters.find(character => character.name === characterName)
+	const character = props.characters.find(char => char.name === characterName)
 
 	return (
 		<>

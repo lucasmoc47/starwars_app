@@ -14,24 +14,3 @@ html, body, #root {
 	margin: 0 auto;
 	width: 80%;
 }
-
-.characterList {
-	list-style-type: none;
-}
-
-.characterList li {
-	margin: .2em 0;
-}
-
-.characterList a {
-	text-decoration: none;
-}
-
-.characterRow {
-	display: flex;
-}
-
-.characterRow p, .characterRow h3 {
-	padding: .2em 1em 0 0;
-	align-self: center;
-}

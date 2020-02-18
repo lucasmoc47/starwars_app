@@ -1,0 +1,12 @@
+/* .characterInfo {
+	border: 1px solid black;
+} */
+
+.characterRow {
+	display: flex;
+}
+
+.characterRow p, .characterRow h3 {
+	padding: .2em 1em 0 0;
+	align-self: center;
+}
