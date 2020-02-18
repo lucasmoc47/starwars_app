@@ -33,7 +33,7 @@ export default function Characters({ match }) {
 			</ul>
 
 			<Switch>
-				<Route path={`${match.path}/:characterName`}><Character characters={characters}/></Route>
+				<Route path={`${match.path}/:characterName`}><Character characters={characters} /></Route>
 				<Route path={match.path}><h3 className="container">Select a character</h3></Route>
 			</Switch>
 		</>
