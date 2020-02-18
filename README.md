@@ -1,1 +1,1 @@
-A simple dynamic routing exercise.
+A simple dynamic routing and data fetching exercise.
