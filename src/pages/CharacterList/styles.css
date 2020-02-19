@@ -3,6 +3,7 @@
 	display: flex;
 	overflow-x: scroll;
 	overflow-y: hidden;
+	width: 100%;
 }
 
 .characterList a {
@@ -10,7 +11,7 @@
 	color: white;
 	font-weight: bold;
 	align-self: center;
-	background: grey;
+	background: #282727;
 	margin: .5em;
 	padding: .5em;
 	width: 9em;
@@ -27,11 +28,16 @@
 
 ::-webkit-scrollbar {
 	width: 0;
-	height: .4em;
+	height: .3em;
+	border-radius: .5em;
 /* 	background: transparent; */
 }
 
 ::-webkit-scrollbar-thumb {
-	background: rgb(129, 128, 128);
+	border-radius: .5em;
+	background: white;
+}
+
+::-webkit-scrollbar-track {
 	border-radius: .5em;
 }

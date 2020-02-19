@@ -1,6 +1,14 @@
-/* .characterInfo {
-	border: 1px solid black;
-} */
+.characterInfo {
+	border-radius: .5em;
+	background-color: #282727;
+	padding: 2em 3em 3em 3em;
+	margin-top: 2em;
+	color: white;
+}
+
+.characterInfo h2 {
+	margin-bottom: 1em;
+}
 
 .characterRow {
 	display: flex;
@@ -9,4 +17,5 @@
 .characterRow p, .characterRow h3 {
 	padding: .2em 1em 0 0;
 	align-self: center;
+	text-transform: capitalize;
 }

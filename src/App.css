@@ -14,3 +14,30 @@ html, body, #root {
 	margin: 0 auto;
 	width: 80%;
 }
+
+body {
+	background-color: #151515;
+}
+
+.starBackground-left {
+	background-image: url(https://static-mh.content.disney.io/starwars/assets/background/bg_starsL-fd4661a3ccea.jpg);
+	background-size: 100% auto;
+	background-position: left center;
+	width: 200px;
+	height: 100vh;
+	position: absolute;
+	background-repeat: repeat-y;
+	z-index: -1;
+}
+
+.starBackground-right {
+	background-image: url(https://static-mh.content.disney.io/starwars/assets/background/bg_starsR-655c85e404d4.jpg);
+	right: 0;
+	background-size: auto 100%;
+	background-position: right center;
+	width: 200px;
+	height: 100vh;
+	position: absolute;
+	background-repeat: repeat-y;
+	z-index: -1;
+}
