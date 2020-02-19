@@ -5,6 +5,8 @@ import Character from '../Character'
 
 import { CharacterContext } from '../../contexts/CharacterContext'
 
+import loadingGif from '../../assets/loading.gif'
+
 import './styles.css'
 
 export default function CharacterList({ match }) {
@@ -24,7 +26,12 @@ export default function CharacterList({ match }) {
 			{characterContext => {
 				const { characters, loading } = characterContext
 
-				if (loading) return <h1>Loading</h1>
+				if (loading) 
+					return (
+						<div className="loading">
+							<img src={loadingGif} alt=""/>
+						</div>
+					)
 
 				return (
 					<>

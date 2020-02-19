@@ -41,3 +41,13 @@
 ::-webkit-scrollbar-track {
 	border-radius: .5em;
 }
+
+.loading {
+	width: 100vw;
+	height: 100vh;
+	text-align: center;
+}
+
+.loading img {
+	margin-top: 30vh;
+}
