@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/lucasmoc47/dynamic_routing/static/css/main.4af4f414.chunk.css",
+    "main.js": "/lucasmoc47/dynamic_routing/static/js/main.acd4ce47.chunk.js",
+    "main.js.map": "/lucasmoc47/dynamic_routing/static/js/main.acd4ce47.chunk.js.map",
+    "runtime-main.js": "/lucasmoc47/dynamic_routing/static/js/runtime-main.3fa5a067.js",
+    "runtime-main.js.map": "/lucasmoc47/dynamic_routing/static/js/runtime-main.3fa5a067.js.map",
+    "static/js/2.70e88681.chunk.js": "/lucasmoc47/dynamic_routing/static/js/2.70e88681.chunk.js",
+    "static/js/2.70e88681.chunk.js.map": "/lucasmoc47/dynamic_routing/static/js/2.70e88681.chunk.js.map",
+    "index.html": "/lucasmoc47/dynamic_routing/index.html",
+    "precache-manifest.b1041420ecaf223f04b42fd98e8847f4.js": "/lucasmoc47/dynamic_routing/precache-manifest.b1041420ecaf223f04b42fd98e8847f4.js",
+    "service-worker.js": "/lucasmoc47/dynamic_routing/service-worker.js",
+    "static/css/main.4af4f414.chunk.css.map": "/lucasmoc47/dynamic_routing/static/css/main.4af4f414.chunk.css.map",
+    "static/js/2.70e88681.chunk.js.LICENSE.txt": "/lucasmoc47/dynamic_routing/static/js/2.70e88681.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/lucasmoc47/dynamic_routing/static/media/bg_stars_right.655c85e4.jpg",
+    "static/media/loading.gif": "/lucasmoc47/dynamic_routing/static/media/loading.9c172697.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3fa5a067.js",
+    "static/js/2.70e88681.chunk.js",
+    "static/css/main.4af4f414.chunk.css",
+    "static/js/main.acd4ce47.chunk.js"
+  ]
+}
