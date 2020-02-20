@@ -28,8 +28,7 @@ export default function Character() {
 				return (
 					<div className="container">
 						<div className="characterInfo">
-							<h1>Character Information</h1>
-							<InfoItem title="Name: " info={character.name} />
+							<h1>{character.name}</h1>
 							<InfoItem title="Height: " info={character.height} additional="cm" />
 							<InfoItem title="Mass: " info={character.mass} additional="kg" />
 							<InfoItem title="Hair Color: " info={character.hair_color} />
