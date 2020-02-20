@@ -40,7 +40,7 @@ export default function CharacterList({ match }) {
 						<ul className="characterList container" id="characterList" onWheel={onWheel}>
 							{characters.map(character => (
 								<li key={character.name}>
-									<Link to={`${match.url}/${character.name}`}>
+									<Link to={`/${character.name}`}>
 										<span>{character.name}</span>
 									</Link>
 								</li>
@@ -48,7 +48,7 @@ export default function CharacterList({ match }) {
 						</ul>
 
 						<Switch>
-							<Route path={`${match.path}/:characterName`} component={CharacterInfo} />
+							<Route path={`/:characterName`} component={CharacterInfo} />
 							<Route path={match.path} component={NoCharacter} />
 						</Switch>
 					</>
