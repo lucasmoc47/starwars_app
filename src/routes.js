@@ -6,9 +6,10 @@ import Home from './pages/Home'
 
 export default function Routes() {
 	return (
-		<Router basename="/characters">
+		<Router>
 			<Switch>
-				<Route path="/" component={Home} />
+				<Route path="/people" component={Home} />
+				<Redirect exact from="/" to="/people" />
 			</Switch>
 		</Router>
 	);
