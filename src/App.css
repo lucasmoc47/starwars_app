@@ -13,6 +13,7 @@ html, body, #root {
 .container {
 	margin: 0 auto;
 	width: 80%;
+	position: relative;
 }
 
 body {
@@ -20,8 +21,8 @@ body {
 }
 
 .starBackground-left {
-	background-image: url(https://static-mh.content.disney.io/starwars/assets/background/bg_starsL-fd4661a3ccea.jpg);
-	background-size: 100% auto;
+	background-image: url('./assets/bg_stars_left.jpg');
+	background-size: auto 100%;
 	background-position: left center;
 	width: 200px;
 	height: 100vh;
@@ -31,7 +32,7 @@ body {
 }
 
 .starBackground-right {
-	background-image: url(https://static-mh.content.disney.io/starwars/assets/background/bg_starsR-655c85e404d4.jpg);
+	background-image: url('./assets/bg_stars_right.jpg');
 	right: 0;
 	background-size: auto 100%;
 	background-position: right center;

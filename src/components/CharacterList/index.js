@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link, Switch, Route } from 'react-router-dom'
 
-import Character from '../Character'
+import CharacterInfo from '../CharacterInfo'
+import NoCharacter from '../NoCharacter'
 
 import { CharacterContext } from '../../contexts/CharacterContext'
 
@@ -14,6 +15,7 @@ export default function CharacterList({ match }) {
 	function onWheel(e) {
 		var container = document.getElementById('characterList')
 		var containerScrollPosition = document.getElementById('characterList').scrollLeft
+		
 		container.scrollTo({
 			top: 0,
 			left: containerScrollPosition + e.deltaY,
@@ -46,8 +48,8 @@ export default function CharacterList({ match }) {
 						</ul>
 
 						<Switch>
-							<Route path={`${match.path}/:characterName`}><Character characters={characters} /></Route>
-							<Route path={match.path}><h3 className="container">Select a character</h3></Route>
+							<Route path={`${match.path}/:characterName`} component={CharacterInfo} />
+							<Route path={match.path} component={NoCharacter} />
 						</Switch>
 					</>
 				)

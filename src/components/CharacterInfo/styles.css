@@ -1,0 +1,38 @@
+.characterInfo {
+	border-radius: .5em;
+	background-color: #282727;
+	padding: 2em 3em 3em 3em;
+	margin-top: 2em;
+	color: white;
+	background-image: url('../../assets/bg_hash_top.png');
+	background-repeat: repeat-x;
+	background-position: top left;
+	background-size: .4em;
+}
+
+.characterInfo h1 {
+	text-align: left;
+	margin-bottom: .5em;
+	padding: .4em;
+	padding-left: 0;
+	border-bottom: 1px solid white;
+}
+
+.characterInfo::before, .characterInfo::after {
+	background-color: #282727;
+	width: 101%;
+	height: 35%;
+	position: absolute;
+	z-index: -1;
+	content: "";
+	border-radius: .5em;
+	left: -0.5%;
+}
+
+.characterInfo::after {	
+	top: 0;
+}
+
+.characterInfo::before {
+	top: 65%;
+}

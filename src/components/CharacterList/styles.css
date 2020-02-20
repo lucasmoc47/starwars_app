@@ -7,11 +7,15 @@
 }
 
 .characterList a {
+	background-image: url(https://static-mh.content.disney.io/starwars/assets/shared/bg_hash_top-dca2c5ab1b2e.png);
+	background-repeat: repeat-x;
+	background-position: top left;
+	background-size: .4em;
+	background-color: #282727;
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
 	align-self: center;
-	background: #282727;
 	margin: .5em;
 	padding: .5em;
 	width: 9em;
