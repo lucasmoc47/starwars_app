@@ -6,10 +6,10 @@ import Home from './pages/Home'
 
 export default function Routes() {
 	return (
-		<Router>
+		<Router basename="dynamic_routing">
 			<Switch>
-				<Route path="/people" component={Home} />
-				<Redirect exact from="/" to="/people" />
+				<Route path="/characters" component={Home} />
+				<Redirect exact from="/" to="/characters" />
 			</Switch>
 		</Router>
 	);
