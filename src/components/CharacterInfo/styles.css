@@ -3,6 +3,7 @@
 	background-color: #282727;
 	padding: 2em 3em 3em 3em;
 	margin-top: 2em;
+	margin-bottom: 1em;
 	color: white;
 	background-image: url('../../assets/bg_hash_top.png');
 	background-repeat: repeat-x;
@@ -35,4 +36,23 @@
 
 .characterInfo::before {
 	top: 65%;
+}
+
+@media only screen and (max-width: 580px) {
+	.characterInfo {
+		padding: .5em 2em 2em 2em;
+		margin: 1em 0 1em 0;
+	}
+
+	.characterInfo::before, .characterInfo::after {
+		width: 103%;
+		left: -1.5%;
+	}
+}
+
+@media only screen and (max-width: 880px) {
+	.characterInfo::before, .characterInfo::after {
+		width: 102%;
+		left: -1%;
+	}
 }

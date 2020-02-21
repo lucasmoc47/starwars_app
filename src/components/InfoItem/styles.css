@@ -1,15 +1,23 @@
 .infoItem {
 	display: flex;
+	text-align: left;
+	margin-bottom: .3em;
 }
 
 .info, .title {
-	padding: .2em .5em 0 0;
-	align-self: flex-end;
 	text-transform: capitalize;
+}
+
+.info, .additional {
+	align-self: center;
+	padding-right: .2em;
+}
+
+.title {
+	align-self: flex-start;
+	margin-right: .5em;
 }
 
 .additional {
 	text-transform: none;
-	align-self: flex-end;
-	margin-left: -.4em;
 }

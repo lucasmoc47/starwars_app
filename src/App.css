@@ -42,3 +42,9 @@ body {
 	background-repeat: repeat-y;
 	z-index: -1;
 }
+
+@media only screen and (max-width: 580px) {
+	.container {
+		width: 85%;
+	}
+}
