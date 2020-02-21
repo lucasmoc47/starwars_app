@@ -6,10 +6,10 @@ import Home from './pages/Home'
 
 export default function Routes() {
 	return (
-		<Router basename="dynamic_routing">
+		<Router basename="starwars_app">
 			<Switch>
 				<Route path="/characters" component={Home} />
-				<Redirect exact from="/" to="/characters" />
+				<Redirect from="*" to="/characters" />
 			</Switch>
 		</Router>
 	);

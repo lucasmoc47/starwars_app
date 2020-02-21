@@ -1,15 +1,17 @@
 import React from 'react'
 
-import { useParams } from 'react-router-dom'
+import { useParams, useHistory } from 'react-router-dom'
 
 import { CharacterContext } from '../../contexts/CharacterContext'
 
 import InfoItem from '../InfoItem'
+import NoCharacter from '../NoCharacter'
 
 import './styles.css'
 
 export default function Character() {
 	const { characterName } = useParams()
+	let history = useHistory()
 
 	return (
 		<CharacterContext.Consumer>
@@ -17,6 +19,12 @@ export default function Character() {
 				const { characters, films, planets, species } = characterContext
 
 				const character = characters.find(character => character.name === characterName)
+				
+				if(!character) {
+					history.push('/characters')
+					return
+				}
+
 				const characterFilms = character.films.map(characterFilm =>
 					films.find(film => characterFilm === film.url).title
 				)

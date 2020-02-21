@@ -18,7 +18,7 @@ export default function CharacterList({ match }) {
 		
 		container.scrollTo({
 			top: 0,
-			left: containerScrollPosition + e.deltaY,
+			left: containerScrollPosition + e.deltaY/4,
 			behaviour: 'smooth'
 		})
 	}
