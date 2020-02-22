@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, Switch, Route } from 'react-router-dom'
 
 import CharacterInfo from '../CharacterInfo'
-import NoCharacter from '../NoCharacter'
+import ErrorMessage from '../ErrorMessage'
 
 import { CharacterContext } from '../../contexts/CharacterContext'
 
@@ -28,6 +28,10 @@ export default function CharacterList({ match }) {
 			{characterContext => {
 				const { characters, loading } = characterContext
 
+				if(!characters) {
+					return <ErrorMessage message="DataBase Error" />
+				}
+
 				if (loading) 
 					return (
 						<div className="loading">
@@ -49,7 +53,7 @@ export default function CharacterList({ match }) {
 
 						<Switch>
 							<Route path={`${match.path}/:characterName`} component={CharacterInfo} />
-							<Route path={match.path} component={NoCharacter} />
+							<Route path={match.path}><ErrorMessage message="Select a Character" /></Route>
 						</Switch>
 					</>
 				)
