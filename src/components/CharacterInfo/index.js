@@ -5,7 +5,6 @@ import { useParams, useHistory } from 'react-router-dom'
 import { CharacterContext } from '../../contexts/CharacterContext'
 
 import InfoItem from '../InfoItem'
-import NoCharacter from '../NoCharacter'
 
 import './styles.css'
 
