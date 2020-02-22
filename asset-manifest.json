@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/starwars_app/static/css/main.90ea991c.chunk.css",
-    "main.js": "/starwars_app/static/js/main.59b73a9e.chunk.js",
-    "main.js.map": "/starwars_app/static/js/main.59b73a9e.chunk.js.map",
+    "main.js": "/starwars_app/static/js/main.c008deb5.chunk.js",
+    "main.js.map": "/starwars_app/static/js/main.c008deb5.chunk.js.map",
     "runtime-main.js": "/starwars_app/static/js/runtime-main.bd4d0e54.js",
     "runtime-main.js.map": "/starwars_app/static/js/runtime-main.bd4d0e54.js.map",
-    "static/js/2.c21e17af.chunk.js": "/starwars_app/static/js/2.c21e17af.chunk.js",
-    "static/js/2.c21e17af.chunk.js.map": "/starwars_app/static/js/2.c21e17af.chunk.js.map",
+    "static/js/2.f0c25c8d.chunk.js": "/starwars_app/static/js/2.f0c25c8d.chunk.js",
+    "static/js/2.f0c25c8d.chunk.js.map": "/starwars_app/static/js/2.f0c25c8d.chunk.js.map",
     "index.html": "/starwars_app/index.html",
-    "precache-manifest.2ca567eb14bf8d88ad3e3d60e32a847a.js": "/starwars_app/precache-manifest.2ca567eb14bf8d88ad3e3d60e32a847a.js",
+    "precache-manifest.f60faeb4f95ea5febe25ab46c8908140.js": "/starwars_app/precache-manifest.f60faeb4f95ea5febe25ab46c8908140.js",
     "service-worker.js": "/starwars_app/service-worker.js",
     "static/css/main.90ea991c.chunk.css.map": "/starwars_app/static/css/main.90ea991c.chunk.css.map",
-    "static/js/2.c21e17af.chunk.js.LICENSE.txt": "/starwars_app/static/js/2.c21e17af.chunk.js.LICENSE.txt",
+    "static/js/2.f0c25c8d.chunk.js.LICENSE.txt": "/starwars_app/static/js/2.f0c25c8d.chunk.js.LICENSE.txt",
     "static/media/App.css": "/starwars_app/static/media/bg_stars_right.655c85e4.jpg",
     "static/media/loading.gif": "/starwars_app/static/media/loading.9c172697.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.bd4d0e54.js",
-    "static/js/2.c21e17af.chunk.js",
+    "static/js/2.f0c25c8d.chunk.js",
     "static/css/main.90ea991c.chunk.css",
-    "static/js/main.59b73a9e.chunk.js"
+    "static/js/main.c008deb5.chunk.js"
   ]
 }
